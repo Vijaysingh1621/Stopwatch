@@ -163,6 +163,22 @@ html {
   /*============== for media screen ============*/
   @media only screen and (max-width: 576px) {
 
+      
+#title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 0px;
+  margin-top: -320px;
+  padding-left: 10px;
+}
+
 
     .stopwatch{
       display: flex;
@@ -254,28 +270,28 @@ html {
     }
   
     .start-button{
-      background-color:#00a868;
-    }
-    .start-button:hover{
-     background-color:black;
-     transition: .2s;
-     
-    }
-    .stop-button{
-      background-color:#fe2a2a;
-    }
-    .stop-button:hover{
-     background-color:black;
-     transition: .2s;
-     
-    }
-    .reset-button{
-      background-color:#20a2f3;
-    }
-    .reset-button:hover{
-     background-color:black;
-     transition: .2s;
-     
-    }
-  
+    background-color:#00a868;
+  }
+  .start-button:hover{
+   background-color:black;
+   transition: .2s;
+   
+  }
+  .stop-button{
+    background-color:#fe2a2a;
+  }
+  .stop-button:hover{
+   background-color:black;
+   transition: .2s;
+   
+  }
+  .reset-button{
+    background-color:#20a2f3;
+  }
+  .reset-button:hover{
+   background-color:black;
+   transition: .2s;
+   
+  }
+
   }
