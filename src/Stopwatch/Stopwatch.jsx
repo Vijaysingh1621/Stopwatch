@@ -76,6 +76,7 @@ const Stopwatch = () => {
               <span>
                 Stopwatch
               </span>
+              <span className='made-by'>made by vijay</span>
             </div>
     </>
   )
